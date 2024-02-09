@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondScreen">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:justificationMode="inter_word"
+            android:text="My name is Alzhan. I am 20 years old and I'm from Almaty. I am an artist, I am a performance artist, musician, Java Backend developer. I also love write music, play guitar, draw, play football and many more activities. I am a 3rd year student at International IT University. Last autumn, I were at Innopolis University as an exchange student. This university is based in Republic of Tatarstan, nearly by Kazan (Russian Federation). It was pretty fun and cool to have an opportunity studying here." />
+    </ScrollView>
+</LinearLayout>
